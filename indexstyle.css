@@ -1,0 +1,373 @@
+/* THE WHOLE THING IN GENERAL */
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+/* NAVBAR */
+.navigationcontainer{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#navbar{
+	text-align: center;
+	height: 55px;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{ 
+	display: inline;
+}
+#navbar a{
+	font-weight: 700;
+	font-size: 65%;
+	color: #000000;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+/* when the mouse rolls over the link, change colours */
+#navbar a.ex1:hover, a.ex1:active {color: #e06d5e;}
+/* when the mouse has clicked on the link, change colours */
+#navbar a.ex1:hover,a.ex1:visited {color: #e06d5e;}
+
+#navbar a.ex2:hover, a.ex2:active {color: #e06d5e;}
+#navbar a.ex2:hover,a.ex2:visited {color: #e06d5e;}
+
+#navbar a.ex3:hover, a.ex3:active {color: #e06d5e;}
+#navbar a.ex3:hover,a.ex3:visited {color: #e06d5e;}
+
+#navbar a.ex4:hover, a.ex4:active {color: #e06d5e;}
+#navbar a.ex4:hover,a.ex4:visited {color: #e06d5e;}
+
+#navbar a.ex5:hover, a.ex5:active {color: #e06d5e;}
+#navbar a.ex5:hover,a.ex5:visited {color: #e06d5e;}
+/* LINES */
+#mini{
+	width: 15%;
+}
+#whiteline{
+	display: block; height: 1px;
+    border: 0; border-top: 1px solid #fff;
+    margin: 1em 0; padding: 0;
+    width: 80%;
+}
+/* DESIGNED BY CHALYSE HEADING */
+h1{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 300%;
+	text-align:	center;
+}
+/* SUBHEADING */
+h3{
+	text-align: center;
+	font-weight: 100;
+}
+/* SUB-SUBHEADING */
+h4{
+	text-align: left;
+	font-size: 150%;
+	font-weight: 100;
+}
+h5{
+	font-size: 24px;
+	font-weight: 100;
+}
+/* SUB-SUBHEADING CATEGORY */
+#subheading-category{
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+	color: #979797;
+}
+/* DATE AT THE BOTTOM OF A BLOG */
+#date{
+	text-align: center;
+	font-size: 11px;
+	font-style: italic;
+	color: #979797;
+
+}
+/* BLOGGING CONTAINER */
+.container{
+	width: 40%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+/* IMAGES */
+#headinglogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#branchimage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#portfolioshowcase{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#post-image{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+/* RED WHEN HIGHLIGHTED */
+h1::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+h2::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+h3::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+h4::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+h5::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+p::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+ul::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+div::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+ul::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+li::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+img::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+form::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+input::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+label::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+textarea::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+div::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+option::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+select::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+br::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+button::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+/* MAIN PAGE FORM */
+#small-text{
+	font-size: 75%;
+	color: #979797;
+}
+#email{
+	font-size: 70%;
+	width: 60%;
+}
+#submit{
+	background-color: #3f4749;
+	margin-left: 0 auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:100px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    width: 6em;
+    height: 1em;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* FOOTER */
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: right;
+	padding: 5px;
+	margin-top: 10px;
+	float;
+}
+#main-footer p{
+	width: 98%;
+}
+/* CONTACT PAGE INTO 2 COLUMNS*/
+.contact-row{
+	display: flex;
+}
+.contact-column{
+	flex: 50%;
+	padding-right: 10px;
+}
+.row{
+	display: flex;
+}
+.row1{
+	display: flex;
+	padding-bottom: 2px; 
+}
+.collage1-column{
+	flex: 20%;
+	padding-right: 10px;
+}
+.collage2-column{
+	flex: 53.45%;
+	padding-right: 10px;
+}
+.collage3-column{
+	flex: 30%;
+	padding-right: 4px;
+}
+.collage4-column{
+	flex: 69.69%;
+}
+.collage5-column{
+	flex: 28%;
+	padding-right: 4px;
+}
+.collage6-column{
+	flex: 64%;
+	padding-right: 4px;
+}
+
+.collage7-column{
+	flex: 23%;
+	padding-right: 4px;
+}
+.collage8-column{
+	flex: 15.7%;
+	padding-right: 4px;
+}
+.collage9-column{
+	flex: 25%;
+	padding-right: 4px;
+}
+/* FIRST BLOG GREEN BACKGROUND TEXT */
+.background-green{
+	background-color: #7bdcb5;
+}
+/* REQUIRED FIELD IN CONTACT SECTION */
+.required-red{
+	color: #e06d5e;
+}
+/* MAKING A GALLERY SLIDESHOW (old) */
+/* 
+* {
+	box-sizing: border-box
+}
+.slideshow-container{
+	position: relative;
+}
+.mySlides{
+	display: none;
+}
+.prev,
+.next{
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	margin-top: -50px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	background-color: rgba(0, 0, 0, 0, 0.8);
+}
+.numbertext{
+	color: #f2f2f2;
+	font-size: 12px;
+  	padding: 8px 12px;
+  	position: absolute;
+  	top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*/
