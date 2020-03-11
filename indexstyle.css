@@ -59,8 +59,9 @@ body{
 	color: #979797;
 }
 /* DESIGNED BY CHALYSE HEADING */
-h1{
+.designed-by-chalyse-title{
 	font-family: "Open Sans", sans-serif;
+	font-style: normal;
 	font-weight: 400;
 	font-size: 79px;
 	line-height: 87px;
@@ -79,7 +80,7 @@ h3{
 	font-weight: 100;
 }
 /* SUB-SUBHEADING */
-h4{
+.index-welcome{
 	text-align: left;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
@@ -92,6 +93,14 @@ h4{
 h5{
 	font-size: 24px;
 	font-weight: 100;
+}
+#portfolio-header{
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	size: 26px;
+	line-height: 40px;
+	color: #24282d;
 }
 /* SUB-SUBHEADING CATEGORY */
 #subheading-category{
