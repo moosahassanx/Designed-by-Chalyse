@@ -5,38 +5,35 @@
 	<meta charset="UTF-8">
 	
 	<!-- tab bar heading -->
-	<title>Contact - Designed by Chalyse</title>
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" type="text/css" href="indexstyle.css">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Designed by Chalyse</title>
+	
+	<!-- enables CSS through external source -->
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+
 </head>
 
 <body>
 	<br>
 	<img id="headinglogo" src="https://designedbychalysehome.files.wordpress.com/2019/07/cropped-chalyse-fowler-designs-logo-colour-16.png?w=150" alt="Designed by Chalyse Logo">
-	<h1 class="designed-by-chalyse-title">DESIGNED BY CHALYSE</h1>
+	<h1>DESIGNED BY CHALYSE</h1>
 	
 	<nav id="navbar">
 		<div class="navigationcontainer">
 			<ul>
 				<li><a class="ex1" href="index.html">HOME</a></li>
+				<li><a class="ex2" href="portfolio.html">PORTFOLIO</a></li>
 				<li><a class="ex3" href="blog-feed.html">BLOG FEED</a></li>
 				<li><a class="ex4" href="contact.html">CONTACT</a></li>
-				<li><a class="ex4" href="magazine.html">MAGAZINE</a></li>
-				<li><a class="ex2" href="portfolio.html">PORTFOLIO</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<h3>CONTACT</h3>
+	<h3>HOME</h3>
 	<hr id="mini">
 
 
-	<div class="blogging-container">
-		<p id="contact-text">Hi, I’d love to hear from you, get in touch with me below 😊</p>
+	<div class="container">
+		<p>Hi, I’d love to hear from you, get in touch with me below 😊</p>
 		
 		<div class="contact-row">
 			<div class="contact-column">
@@ -46,19 +43,19 @@
 				<h4>Send a Message</h4>
 				<form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post" name="contact-submission" onSubmit="return validateText()">
 					<div>
-						<label id="contact-label">Name <span class="required-red">(required)</span></label>
+						<label>Name <span class="required-red">(required)</span></label>
 						<br>
-						<input id="contact-textbox" type="text" name="full-name" placeholder="Enter name" required>
+						<input type="text" name="full-name" placeholder="Enter name" required>
 					</div>
 					<div>
-						<label id="contact-label">E-mail <span class="required-red">(required)</span></label>
+						<label>E-mail <span class="required-red">(required)</span></label>
 						<br>
-						<input id="contact-textbox" type="email" name="email" placeholder="Enter e-mail" required>
+						<input type="email" name="email" placeholder="Enter e-mail" required>
 					</div>
 					<div>
-						<label id="contact-label">Reason for Contact <span class="required-red">(required)</span></label>
+						<label>Reason for Contact <span class="required-red">(required)</span></label>
 						<br>
-						<select id="contact-reason-dropdown" name="contact-reason" required>
+						<select name="contact-reason" required>
 							<option value="logo design">Logo Design</option>
 							<option value="bnranding">Branding</option>
 							<option value="poster-flying-design">Poster / Flying Design</option>
@@ -70,19 +67,18 @@
 						</select>
 					</div>
 					<div>
-						<label id="contact-label">Website</label>
+						<label>Website</label>
 						<br>
-						<input id="contact-textbox" type="text" name="website" placeholder="Enter Website" required>
+						<input type="text" name="website" placeholder="Enter Website" required>
 					</div>
 					<div>
-						<label id="contact-label">Message</label>
+						<label>Message</label>
 						<br>
-						<textarea id="contact-textbox" name="message" placeholder="Enter message" required></textarea>
-						<br>
+						<textarea name="message" placeholder="Enter message" required></textarea>
 					</div>
-					<input id="submit-button" type="submit" name="contact-submit" required value="SUBMIT">
+					<input type="submit" name="contact-submit" required>
 					<!-- <button type="button" onclick="alert('Privacy Policy Page PDF should be here')">Privacy Policy</button> -->
-					<button id="privacy-policy-button" type="button" onclick="location.href='https://designedbychalysehome.files.wordpress.com/2019/10/privacy-policy.pdf';">PRIVACY POLICY</button>
+					<button type="button" onclick="location.href='https://designedbychalysehome.files.wordpress.com/2019/10/privacy-policy.pdf';">Privacy Policy</button>
 				</form>
 			</div>
 		</div>
@@ -97,5 +93,4 @@
 		<p>2019 &copy; All contents are copyright of Moosa Hassan and Chalyse Fowler</p>
 	</footer>
 </body>
-
 </html>
