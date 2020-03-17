@@ -90,9 +90,13 @@ h3{
 	color: #24282d;
 	font-weight: 100;
 }
-h5{
-	font-size: 24px;
-	font-weight: 100;
+.portfolio-header{
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 40px;
+	color: #24282d;
 }
 #portfolio-header{
 	font-family: "Open Sans", sans-serif;
@@ -323,6 +327,10 @@ button::selection{
 	background-color: #F1F2F4;
 	border: 0;
 	outline-color: red;
+}
+#contact-reason-dropdown:hover{
+	color: #FFF;
+	background-color: #b8bcc7;
 }
 #contact-textbox{
 	font-family: "Source Sans Pro", sans-serif;
