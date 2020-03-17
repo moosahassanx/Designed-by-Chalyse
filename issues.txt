@@ -1,13 +1,7 @@
 HOME
-- either change the cream-white background to white or change the branch image background
-  to fit the cream-white background (ask chalyse)
-- subscribe button looks really goofy
 - test how the email address will work
 
 PORTFOLIO
-- fix collage images
-- size of normal font be smaller or nah?
-- font image should have a border or nah?
 - "share this" buttons
 
 BLOG FEED
@@ -21,16 +15,13 @@ BLOG FEED
 - some missing hyperlinks in the blog (referencing an artist)
 
 CONTACT
-- chalyse needs to be on the left and form needs to be on the right
 - form needs validation
-- add input type and proper formatting
 - add where the input is going to go
 - format page
-- privacy policy page needs to link to a pdf file
 
 OTHER
 - launch website and claim domain (designedbychalyse.com.au)
-- resolution dimension testingand engineering
+- resolution dimension testing and engineering
 - general maintenance after launch
 - mobile friendly re-edit
 - add loading feature
