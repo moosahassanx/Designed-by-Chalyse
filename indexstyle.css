@@ -1,6 +1,5 @@
 /* THE WHOLE THING IN GENERAL */
 body{
-	background-color: #f4f4f4;
 	color: #555;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -25,12 +24,14 @@ body{
 	display: inline;
 }
 #navbar a{
-	font-weight: 700;
-	font-size: 65%;
+	font-weight: 900;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	line-height: 21px;
 	color: #000000;
 	text-decoration: none;
-	padding-right: 2px;
-	padding-left: 2px;
+	padding-right: 7px;
+	padding-left: 7px;
 }
 /* when the mouse rolls over the link, change colours */
 #navbar a.ex1:hover, a.ex1:active {color: #e06d5e;}
@@ -51,39 +52,63 @@ body{
 /* LINES */
 #mini{
 	width: 15%;
+	border: 1px solid;
 }
 #whiteline{
-	display: block; height: 1px;
-    border: 0; border-top: 1px solid #fff;
-    margin: 1em 0; padding: 0;
-    width: 80%;
+	width: 40%;
+	color: #979797;
 }
 /* DESIGNED BY CHALYSE HEADING */
 .designed-by-chalyse-title{
-	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-weight: 100;
-	font-size: 300%;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 79px;
+	line-height: 87px;
+	color: #24282d;
 	text-align:	center;
 }
 /* SUBHEADING */
 h3{
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+	color: #24282d;
 	text-align: center;
 	font-weight: 100;
 }
 /* SUB-SUBHEADING */
-h4{
+.index-welcome{
 	text-align: left;
-	font-size: 150%;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+	line-height: 46px;
+	color: #24282d;
 	font-weight: 100;
 }
 h5{
 	font-size: 24px;
 	font-weight: 100;
 }
+#portfolio-header{
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	size: 26px;
+	line-height: 40px;
+	color: #24282d;
+}
 /* SUB-SUBHEADING CATEGORY */
 #subheading-category{
 	text-align: center;
-	font-size: 10px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
 	font-style: italic;
 	color: #979797;
 }
@@ -96,7 +121,7 @@ h5{
 
 }
 /* BLOGGING CONTAINER */
-.container{
+.blogging-container{
 	width: 40%;
 	margin: auto;
 	overflow: hidden;
@@ -110,6 +135,8 @@ h5{
 }
 #branchimage{
 	display: block;
+	width: 408px;
+	height: 408px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -207,12 +234,46 @@ button::selection{
 }
 /* MAIN PAGE FORM */
 #small-text{
-	font-size: 75%;
-	color: #979797;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	color: #7f8d8c;
 }
 #email{
-	font-size: 70%;
-	width: 60%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7f8d8c;
+	width: 50%;
+	outline-color: red;
+	background-color: #F1F2F4;
+	border: 0;
+	padding-right: 1rem;
+	padding-left: 0.5rem;
+	padding-top: 1rem;
+	padding: 0.75rem;
+}
+#subscribe{
+	border: 0;
+	color: #FFFFFF;
+	background-color: #484C4E;
+	padding: .9rem;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	size: 12px;
+	line-height: 20px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 100px;
+    width: 150px;
+    transition: 0.3s;
+}
+#subscribe:hover{
+	background-color: #e06d5e; 
 }
 #submit{
 	background-color: #3f4749;
@@ -243,8 +304,92 @@ button::selection{
 }
 #main-footer p{
 	width: 98%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
 }
 /* CONTACT PAGE INTO 2 COLUMNS*/
+#contact-reason-dropdown{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7f8d8c;
+	display: block;
+	width: 95%;
+	padding: 0.75em;
+	background-color: #F1F2F4;
+	border: 0;
+	outline-color: red;
+}
+#contact-textbox{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7f8d8c;
+	display: block;
+	width: 90%;
+	border: 0;
+	background-color: #F1F2F4;
+	padding-right: 1rem;
+	padding-left: 0.5rem;
+	padding: 0.75rem;
+	outline-color: red;
+}
+#privacy-policy-button{
+	border: 0;
+	color: #FFFFFF;
+	background-color: #484C4E;
+	padding: .9rem;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	size: 12px;
+	line-height: 20px;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	transition: 0.3s;
+}
+#privacy-policy-button:hover{
+	background-color: #e06d5e;
+}
+#submit-button{
+	border: 0;
+	color: #FFFFFF;
+	background-color: #484C4E;
+	padding: .9rem;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	size: 12px;
+	line-height: 20px;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	transition: 0.3s;
+}
+#submit-button:hover{
+	background-color: #e06d5e;
+}
+#contact-label{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 33px;
+	color: #7f8d8c;
+}
+#contact-text{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	color: #7f8d8c;
+}
 .contact-row{
 	display: flex;
 }
@@ -303,71 +448,3 @@ button::selection{
 .required-red{
 	color: #e06d5e;
 }
-/* MAKING A GALLERY SLIDESHOW (old) */
-/* 
-* {
-	box-sizing: border-box
-}
-.slideshow-container{
-	position: relative;
-}
-.mySlides{
-	display: none;
-}
-.prev,
-.next{
-	cursor: pointer;
-	position: absolute;
-	top: 40%;
-	width: auto;
-	margin-top: -50px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-}
-.next{
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover{
-	background-color: rgba(0, 0, 0, 0, 0.8);
-}
-.numbertext{
-	color: #f2f2f2;
-	font-size: 12px;
-  	padding: 8px 12px;
-  	position: absolute;
-  	top: 0;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-  background-color: #717171;
-}
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-*/
