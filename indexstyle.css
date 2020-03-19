@@ -126,7 +126,7 @@ h3{
 }
 /* BLOGGING CONTAINER */
 .blogging-container{
-	width: 40%;
+	width: 34%;
 	margin: auto;
 	overflow: hidden;
 	padding-bottom: 20px;
@@ -241,7 +241,7 @@ button::selection{
 	font-family: "Source Sans Pro", sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 33px;
 	color: #7f8d8c;
 }
