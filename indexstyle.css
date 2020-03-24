@@ -11,17 +11,21 @@ body{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+	transition: 0.3s;
 }
 #navbar{
 	text-align: center;
 	height: 55px;
+	transition: 0.3s;
 }
 #navbar ul{
 	padding: 0;
 	list-style: none;
+	transition: 0.3s;
 }
 #navbar li{ 
 	display: inline;
+	transition: 0.3s;
 }
 #navbar a{
 	font-weight: 900;
@@ -32,6 +36,7 @@ body{
 	text-decoration: none;
 	padding-right: 7px;
 	padding-left: 7px;
+	transition: 0.3s;
 }
 /* when the mouse rolls over the link, change colours */
 #navbar a.ex1:hover, a.ex1:active {color: #e06d5e;}
