@@ -518,3 +518,133 @@ button::selection{
 .required-red{
 	color: #e06d5e;
 }
+
+@media all and (max-width: 500px) {
+	/* FOOTER */
+	#main-footer{
+		background: #333;
+		color: #fff;
+		text-align: right;
+		padding: 5px;
+		margin-top: 10px;
+	}
+	#main-footer p{
+		width: 100%;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 20px;
+}
+	
+	.designed-by-chalyse-title{
+		font-family: "Open Sans", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 50px;
+		line-height: 60px;
+		color: #24282d;
+		text-align:	center;
+	}
+
+	.blogging-container{
+		width: 90%;
+		margin: auto;
+		overflow: hidden;
+		padding-bottom: 20px;
+	}
+
+	#headinglogo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2.5rem;
+	}
+
+	#branchimage{
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#mini{
+		width: 40%;
+		border: 1px solid;
+		margin: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#whiteline{
+		width: 80%;
+		color: #979797;
+	}
+
+	#subheading1-centre{
+		font-family: "Open Sans", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+		color: #24282d;
+		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+
+	.index-welcome{
+		text-align: left;
+		font-family: "Open Sans", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 46px;
+		color: #24282d;
+		font-weight: 100;
+	}
+
+	#small-text{
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 33px;
+		color: #7f8d8c;
+	}
+
+	#email{
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #7f8d8c;
+		width: 70%;
+		outline-color: red;
+		background-color: #F1F2F4;
+		border: 0;
+		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-top: 1rem;
+		padding: 0.75rem;
+	}
+
+	#subscribe{
+		border: 0;
+		color: #FFFFFF;
+		background-color: #484C4E;
+		padding: .9rem;
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 900;
+		size: 12px;
+		line-height: 20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 100px;
+		width: 150px;
+		transition: 0.3s;
+	}
+	#subscribe:hover{
+		background-color: #e06d5e; 
+	}
+}
