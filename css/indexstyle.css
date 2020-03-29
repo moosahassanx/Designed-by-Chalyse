@@ -73,8 +73,8 @@ body{
 	color: #24282d;
 	text-align:	center;
 }
-/* SUBHEADING */
-h3{
+/* SUBHEADINGS */
+#subheading1-centre{
 	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -83,6 +83,23 @@ h3{
 	color: #24282d;
 	text-align: center;
 	font-weight: 100;
+}
+#subheading1-left{
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+	color: #24282d;
+	font-weight: 100;
+}
+#subheading2-left{
+	font-family: "Open Sans", sans-serif;;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 43px;
+	color: #ab707f;
 }
 /* SUB-SUBHEADING */
 .index-welcome{
@@ -144,8 +161,8 @@ h3{
 }
 #branchimage{
 	display: block;
-	width: 408px;
-	height: 408px;
+	width: 300px;
+	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -159,6 +176,36 @@ h3{
 	text-align: center;
 	width: 100%;
 	height: auto;
+}
+#basic-image{
+	display: block;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#basic-image-left{
+	display: block;
+	width: auto;
+	height: auto;
+	margin-right: auto;
+}
+#fit-image{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* CAPTION STYLING */
+#caption{
+	font-family: "PT Serif", serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #7f8d8c;
+	text-align: center;
 }
 /* RED WHEN HIGHLIGHTED */
 h1::selection{
@@ -301,6 +348,16 @@ button::selection{
     text-align: center;
     display: inline-block;
     box-sizing: border-box;
+}
+#first-blogpost{
+	background-color: #7bdcb5;
+	color: #292929;
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 33px;
+	padding: 2.5rem;
 }
 /* FOOTER */
 #main-footer{
