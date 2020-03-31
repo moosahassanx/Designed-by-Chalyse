@@ -1,3 +1,53 @@
+.mobile-centering{
+	display: block;
+}
+
+#contact-textbox{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7f8d8c;
+	display: block;
+	width: 100%;
+	border: 0;
+	background-color: #F1F2F4;
+	padding-right: 1rem;
+	padding-left: 0.5rem;
+	padding: 0.75rem;
+	outline-color: red;
+}
+
+#contact-label{
+	font-family: "Source Sans Pro", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 33px;
+	color: #7f8d8c;
+	padding-top: 0;
+}
+
+.special-container{
+	width: 100%;
+}
+
+.text-info{
+	display: block;
+}
+
+#chalyse-portrait{
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+.form-right{
+	width: 50%;
+	float: right;
+}
+
 /* THE WHOLE THING IN GENERAL */
 body{
 	color: #555;
@@ -43,17 +93,6 @@ body{
 /* when the mouse has clicked on the link, change colours */
 #navbar a.ex1:hover,a.ex1:visited {color: #e06d5e;}
 
-#navbar a.ex2:hover, a.ex2:active {color: #e06d5e;}
-#navbar a.ex2:hover,a.ex2:visited {color: #e06d5e;}
-
-#navbar a.ex3:hover, a.ex3:active {color: #e06d5e;}
-#navbar a.ex3:hover,a.ex3:visited {color: #e06d5e;}
-
-#navbar a.ex4:hover, a.ex4:active {color: #e06d5e;}
-#navbar a.ex4:hover,a.ex4:visited {color: #e06d5e;}
-
-#navbar a.ex5:hover, a.ex5:active {color: #e06d5e;}
-#navbar a.ex5:hover,a.ex5:visited {color: #e06d5e;}
 /* LINES */
 #mini{
 	width: 15%;
@@ -208,6 +247,14 @@ body{
 	text-align: center;
 }
 /* RED WHEN HIGHLIGHTED */
+a::selection{
+	background: #e06d5e;
+	color: #fff;
+}
+.ex1::selection{
+	background: #e06d5e;
+	color: #fff;
+}
 h1::selection{
 	background: #e06d5e;
 	color: #fff;
@@ -384,7 +431,7 @@ button::selection{
 	line-height: 24px;
 	color: #7f8d8c;
 	display: block;
-	width: 95%;
+	width: 90%;
 	padding: 0.75em;
 	background-color: #F1F2F4;
 	border: 0;
@@ -520,6 +567,87 @@ button::selection{
 }
 
 @media all and (max-width: 500px) {
+	#contact-reason-dropdown{
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: #7f8d8c;
+		display: block;
+		width: 100%;
+		padding: 0.75em;
+		background-color: #F1F2F4;
+		border: 0;
+		outline-color: red;
+	}
+	
+	.form-right{
+		width: 100%;
+	}
+	
+	.mobile-centering{
+		text-align: center;
+	}
+	
+	#contact-textbox{
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		color: #7f8d8c;
+		display: block;
+		width: 100%;
+		border: 0;
+		background-color: #F1F2F4;
+		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding: 0.75rem;
+		outline-color: red;
+	}
+	
+	#contact-label{
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 33px;
+		color: #7f8d8c;
+		padding-top: 0;
+	}
+	
+	.special-container{
+		width: 100%;
+	}
+	
+	.text-info{
+		display: block;
+	}
+	
+	#chalyse-portrait{
+		display: block;
+		width: 100%;
+		padding-left: 5rem;
+		padding-right: 5rem;
+		padding-bottom: 2rem;
+	}
+	
+	#basic-image-left{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	}
+	
+	#basic-image{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 	/* FOOTER */
 	#main-footer{
 		background: #333;
@@ -601,6 +729,7 @@ button::selection{
 		line-height: 46px;
 		color: #24282d;
 		font-weight: 100;
+		padding-left: 2rem;
 	}
 
 	#small-text{

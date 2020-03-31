@@ -29,71 +29,70 @@
 	<h3 id="subheading1-centre">CONTACT</h3>
 	<hr id="mini">
 
-
 	<div class="container">
 		<p id="small-text">Hi, I’d love to hear from you, get in touch with me below 😊</p>
-		
-		<div class="contact-row">
-			<div class="contact-column">
-				<img src="https://designedbychalysehome.files.wordpress.com/2019/09/screen-shot-2019-09-24-at-4.35.52-pm.png?w=752" alt="Chalyse Portrait" style="width: 100%">
-			</div>
-			<div class="contact-column">
-				<h4 class="index-welcome">Send a Message</h4>
-				<form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post" name="contact-submission" onSubmit="return validateText()">
-					<div>
-						<label id="contact-label">Name <span class="required-red">(required)</span></label>
-						<br>
-						<input id="contact-textbox" type="text" name="full-name" placeholder="Enter name" required>
-					</div>
+		<article class="text-info">
+			<img id="chalyse-portrait" src="https://designedbychalysehome.files.wordpress.com/2019/09/screen-shot-2019-09-24-at-4.35.52-pm.png?w=752" alt="Chalyse Portrait">
+		</article>
+		<h4 class="index-welcome">Send a Message</h4>
+			<form class="form-right" action="http://jkorpela.fi/cgi-bin/echo.cgi" method="post" name="contact-submission" onSubmit="return validateText()">
+				<div>
+					<label id="contact-label">Name <span class="required-red">(required)</span></label>
 					<br>
+					<input id="contact-textbox" type="text" name="full-name" placeholder="Enter name" required>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label id="contact-label">E-mail <span class="required-red">(required)</span></label>
 					<br>
-					<div>
-						<label id="contact-label">E-mail <span class="required-red">(required)</span></label>
-						<br>
-						<input id="contact-textbox" type="email" name="email" placeholder="Enter e-mail" required>
-					</div>
+					<input id="contact-textbox" type="email" name="email" placeholder="Enter e-mail" required>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label id="contact-label">Reason for Contact <span class="required-red">(required)</span></label>
 					<br>
+					<select id="contact-reason-dropdown" name="contact-reason" required>
+						<option value="logo design">Logo Design</option>
+						<option value="bnranding">Branding</option>
+						<option value="poster-flying-design">Poster / Flying Design</option>
+						<option value="social-media-tile-design">Social Media Tile Design</option>
+						<option value="packaging-design">Packaging Design</option>
+						<option value="document-layout">Document Layout (e.g. Reports, Magazines, etc.)</option>
+						<option value="handlettering">Handlettering</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label id="contact-label">Website</label>
 					<br>
-					<div>
-						<label id="contact-label">Reason for Contact <span class="required-red">(required)</span></label>
-						<br>
-						<select id="contact-reason-dropdown" name="contact-reason" required>
-							<option value="logo design">Logo Design</option>
-							<option value="bnranding">Branding</option>
-							<option value="poster-flying-design">Poster / Flying Design</option>
-							<option value="social-media-tile-design">Social Media Tile Design</option>
-							<option value="packaging-design">Packaging Design</option>
-							<option value="document-layout">Document Layout (e.g. Reports, Magazines, etc.)</option>
-							<option value="handlettering">Handlettering</option>
-							<option value="other">Other</option>
-						</select>
-					</div>
+					<input id="contact-textbox" type="text" name="website" placeholder="Enter Website" required>
+				</div>
+				<br>
+				<br>
+				<div>
+					<label id="contact-label">Message</label>
 					<br>
-					<br>
-					<div>
-						<label id="contact-label">Website</label>
-						<br>
-						<input id="contact-textbox" type="text" name="website" placeholder="Enter Website" required>
-					</div>
-					<br>
-					<br>
-					<div>
-						<label id="contact-label">Message</label>
-						<br>
-						<textarea id="contact-textbox" name="message" placeholder="Enter message" required></textarea>
-					</div>
-					<br>
+					<textarea id="contact-textbox" name="message" placeholder="Enter message" required></textarea>
+				</div>
+				<br>
+				<div class="mobile-centering">
 					<input id="submit-button" type="submit" name="contact-submit" value="SUBMIT" required>
 					<!-- <button type="button" onclick="alert('Privacy Policy Page PDF should be here')">Privacy Policy</button> -->
 					<button id="privacy-policy-button" type="button" onclick="location.href='https://designedbychalysehome.files.wordpress.com/2019/10/privacy-policy.pdf';">PRIVACY POLICY</button>
-				</form>
-			</div>
+				</div>
+				<hr>
+			</form>
+		
+		
+		<div class="container">
+			<p id="small-text">Share this:</p>
+			<!-- NEEDS SHARING BUTTONS -->
 		</div>
-
-		<hr>
-
-		<p>Share this:</p>
-		<!-- NEEDS SHARING BUTTONS -->
+		
 	</div>
 
 	<footer id="main-footer">
