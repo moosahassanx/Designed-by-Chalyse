@@ -1,3 +1,38 @@
+/* SOCIAL MEDIA BUTTONS */
+.s-m{
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: #7f8d8c;
+	color: white;
+	margin: 0 6px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.s-m:hover{
+	background: #555;
+	color: white;
+}
+
+.s-m:visited{
+	background: #555;
+	color: white;
+}
+
+.s-m> i{
+	transition: 0.2s;
+}
+
+
+.s-m:hover> i{
+	transform: scale(1.35);
+}
+/* OTHER STUFF */
 .link{
 	color: #e06d5e;
 }
